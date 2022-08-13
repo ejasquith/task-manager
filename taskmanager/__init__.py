@@ -1,6 +1,6 @@
 import os
-from flask import Flask
-from flask_sqlalchemy import SQLAlchemy
+from flask import Flask # noqa
+from flask_sqlalchemy import SQLAlchemy # noqa
 if os.path.exists("env.py"):
     import env # noqa
 
