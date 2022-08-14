@@ -11,4 +11,6 @@ $(document).ready(function(){
     })
     // select init
     $('select').formSelect();
+    //collapse init
+    $('.collapsible').collapsible();
   });
